@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6r0125_000.yaml, hash: 'sha256:7ef351b077639303e1486f7b5c1963fb6a40d11474c7eaf2f2ebdd41860c9e19'}
-  - {seq: 1, filename: KR6r0125_001.yaml, hash: 'sha256:fc86a701174c825355c329ad72eac063a1c0a9c758c5382f09eae23b50060f9b'}
+  - {seq: 1, filename: KR6r0125_001.yaml, hash: 'sha256:b571524c2ff1a56e9bb2cee9fe7286010e53f328cfe59dbbc3fd38a01014f5c3'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6r0125_001.markers.yaml, hash: 'sha256:48e9e26b375a7f613513f3a9ed97144306e91c6a78f95fc7be0578afbf544bf2'}
+  - {seq: 0, role: markers, filename: assets/KR6r0125_000.markers.yaml, hash: 'sha256:a04cf06231251c2c7fd0695bb52f7aa16b568e3e2ebc3a6f4ed1438e516d9ed4'}
+  - {seq: 1, role: markers, filename: assets/KR6r0125_001.markers.yaml, hash: 'sha256:118883e7015144715db42011ee46e81ee30c5abe64415f99e4d9c5825acff559'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 燉煌錄
   type: juan
   level: 1
-hash: sha256:588c4cac45b4bbba1a86a8504c6d3a341da63b2ef0c19e59a23b186acbac5125
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:a6ca99fea8a69ce399a3542f0a7f696773d4ae467d48eed710cb1face6fef718
